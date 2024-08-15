@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evaluasi HTML Dasar</title>
+</head>
+<body>
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <p>Halaman ini dibuat untuk menguji pemahaman dasar HTML. Anda akan menemukan berbagai elemen HTML dasar di sini.</p>
+    <h2>Pengelolaan Teks</h2>
+    <p>Ini adalah contoh teks dengan beberapa bagian yang <strong>tebal</strong> dan <em>miring</em>.</p>
+    <hr>
+    <blockquote>
+        "Kunci sukses adalah memulai. Langkah pertama adalah yang terpenting."
+        <br>- Mark Twain
+    </blockquote>
+    <h2>Hyperlink dan Gambar</h2>
+    <p>Kunjungi situs web favorit saya: <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></p>
+    <p>
+        <a href="https://www.wikipedia.org" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="Logo Wikipedia" width="200">
+        </a>
+    </p>
+    <h2>Membuat Daftar</h2>
+    <ol>
+        <li>Menyelesaikan kursus pemrograman</li>
+        <li>Memulai proyek pribadi</li>
+        <li>Meningkatkan keterampilan bahasa Inggris</li>
+    </ol>
+    <ul>
+        <li>Membaca buku</li>
+        <li>Menonton film</li>
+        <li>Belajar memasak</li>
+    </ul>
+    <h2>Tabel Data</h2>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Reyhan</td>
+            <td>25</td>
+            <td>Bandung</td>
+        </tr>
+        <tr>
+            <td>Ariq</td>
+            <td>24</td>
+            <td>Jakarta</td>
+        </tr>
+        <tr>
+            <td>Syahalam</td>
+            <td>23</td>
+            <td>Surabaya</td>
+        </tr>
+    </table>
+    <h2>Formulir Pendaftaran</h2>
+    <form>
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="laki-laki" name="gender" value="laki-laki">
+        <label for="laki-laki">Laki-laki</label><br>
+        <input type="radio" id="perempuan" name="gender" value="perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+        
+        <label for="kota">Kota:</label><br>
+        <select id="kota" name="kota">
+            <option value="bandung">Bandung</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="surabaya">Surabaya</option>
+        </select><br><br>
+        
+        <input type="checkbox" id="syarat" name="syarat">
+        <label for="syarat">Saya menyetujui syarat dan ketentuan</label><br><br>
+        
+        <label for="pesan">Pesan atau Komentar:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
